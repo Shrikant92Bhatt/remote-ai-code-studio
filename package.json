@@ -1,0 +1,19 @@
+{
+  "name": "remote-ai-code-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production-grade remote multi-LLM coding platform",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @raic/api --filter @raic/web dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "tsx": "^4.20.3"
+  }
+}
