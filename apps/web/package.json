@@ -1,0 +1,7 @@
+{
+  "name": "@raic/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint", "typecheck": "tsc --noEmit" },
+  "dependencies": { "next": "^15.5.0", "react": "^19.1.1", "react-dom": "^19.1.1", "@monaco-editor/react": "^4.7.0" }
+}
